@@ -47,7 +47,12 @@ This project includes a smooth scrolling navigation bar and a contact form with 
 
 ## Deployment
 
-This project is deployed using GitHub Pages. You can visit it here: [Live Site](deployment-url)
+This project is deployed using GitHub Pages. You can visit it here: [Live Site](https://aamandour.github.io/amandour/)
+
+## Repositry and Comments Link
+
+- This is the repo link: [GitHub Repo Link](https://github.com/aamandour/amandour)
+- This is All Comments Linke: [GitHub All Comments Link](https://github.com/aamandour/amandour/commits/main/)
 
 ## Sources Used
 
