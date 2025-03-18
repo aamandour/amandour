@@ -13,4 +13,26 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  // Form validation
+  const form = document.getElementById("contactForm");
+  form.addEventListener("submit", handleSubmit);
 });
+
+// Function to handle form submission
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const form = document.getElementById("contactForm");
+  const formData = new FormData(form);
+
+  for (const [key, value] of formData.entries()) {
+    formData[key] = value;
+  }
+
+  // Log all form data
+  console.log("formData :", formData);
+
+  // Reset the form after submission
+  form.reset();
+}
